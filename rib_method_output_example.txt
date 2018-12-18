@@ -1,0 +1,27 @@
+{
+    "10.10.1.0/24": {
+        "as-path": "65000",
+        "med": 0,
+        "next-hop": "10.10.1.2",
+        "origin": "INCOMPLETE"
+    },
+    "192.168.0.1/32": {
+        "as-path": "65000 10 20 30",
+        "communities": "701:1 701:500 701:501",
+        "med": 100,
+        "next-hop": "10.10.1.2",
+        "origin": "INCOMPLETE"
+    },
+    "192.168.1.1/32": {
+        "as-path": "65000",
+        "med": 0,
+        "next-hop": "10.10.1.2",
+        "origin": "INCOMPLETE"
+    },
+    "192.168.2.1/32": {
+        "as-path": "65000",
+        "med": 0,
+        "next-hop": "10.10.1.2",
+        "origin": "INCOMPLETE"
+    }
+}
