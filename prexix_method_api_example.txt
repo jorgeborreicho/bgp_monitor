@@ -1,0 +1,7 @@
+{
+    "as-path": "65000 10 20 30",
+    "communities": "701:1 701:500 701:501",
+    "med": 100,
+    "next-hop": "10.10.1.2",
+    "origin": "INCOMPLETE"
+}
