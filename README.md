@@ -8,11 +8,12 @@ This tool also provides a JSON REST API with three methods:
 
 http://127.0.0.1:8000/count - that returns the number (an integer) of advertised prefixes;
 
-http://127.0.0.1:8000/rib - that dump the RIB (Routing Information Base) in JSON format;
+http://127.0.0.1:8000/rib - that dump the RIB (Routing Information Base) in JSON format (see example output)
 
-http://127.0.0.1:8000/prefix/192.168.0.1/32 - that queries the RIB checking if that specific prefix is being advertised.
+http://127.0.0.1:8000/prefix/192.168.0.1/32 - that queries the RIB checking if that specific prefix is being advertised (see example output).
 
 You may edit the script to change the API port.
+
 This script can be useful to monitor BGP activity and keep track of the number of known routes together with other tools like NAGIOS or Cacti. Be sure to test it out before setting up a BGP connection with a live router. 
 
 I have used it so far with Cisco routers. Check the provided example configuration.
