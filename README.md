@@ -16,7 +16,7 @@ You may edit the script to change the API port.
 
 This script can be useful to monitor BGP activity and keep track of the number of known routes together with other tools like NAGIOS or Cacti. Be sure to test it out before setting up a BGP connection with a live router. 
 
-I have used it so far with Cisco routers. Check the provided example configuration.
+I have used it so far with Cisco routers. Check the provided configuration example.
 
 
 
